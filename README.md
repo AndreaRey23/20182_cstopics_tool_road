@@ -49,3 +49,11 @@ Projective transformation
   <img src="https://raw.githubusercontent.com/cstopics/cstopics/6937cd1177395c72b3ccd049293327d8097dc114/assets/notebooks/vision/fig_projective.png" width="250"/>
 </p>
 
+Code
+==========
+The code needs dependencies such as PyQT5, it allows to read the file of the interface, it also needs cv2, with this the processing of the images will be done and finally pytesseract with this the transformation of the image to text will be done, thus obtaining the plate and the city from which it is coming
+
+Interface
+==========
+The interface is built in qt creator to then read the .ui file in a python program and assign to each widget the function with which it will be activated
+
