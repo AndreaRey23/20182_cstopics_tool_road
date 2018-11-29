@@ -53,7 +53,15 @@ Code
 ==========
 The code needs dependencies such as PyQT5, it allows to read the file of the interface, it also needs cv2, with this the processing of the images will be done and finally pytesseract with this the transformation of the image to text will be done, thus obtaining the plate and the city from which it is coming
 
+<p align="center">
+  <img src="https://pbs.twimg.com/media/DtLDJWGXcAEkPLG.jpg" width="550"/>
+</p>
+
 Interface
 ==========
 The interface is built in qt creator to then read the .ui file in a python program and assign to each widget the function with which it will be activated
+
+<p align="center">
+  <img src="https://pbs.twimg.com/media/DtLDV62WoAA6h5q.jpg" width="550"/>
+</p>
 
