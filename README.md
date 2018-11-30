@@ -89,4 +89,4 @@ The interface is built in qt creator to then read the .ui file in a python progr
 
 Results
 ==========
-https://www.youtube.com/watch?v=GiqK-qqpFHw&feature=youtu.be
+https://www.youtube.com/watch?time_continue=1&v=GiqK-qqpFHw
