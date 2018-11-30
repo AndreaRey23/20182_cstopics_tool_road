@@ -1,6 +1,27 @@
 # TOOL ROAD
 From a background model to detect the vehicles that pass through the toll, it is sought to obtain the number of the license plate and the city.
 
+Haar classifier
+==========
+Haar is a cascade classifier that is a system for the recognition of objects using hundreds of samples, these must be positive and negative, use the classifier to recognize the shape of the desired object.
+
+Positive images
+--------------------
+We need to collect positive images that contain only objects of interest, in our case they were plates, building a positive dataset of 89 images.
+
+<p align="center">
+  <img src="https://static.iris.net.co/dinero/upload/images/2009/3/25/75779_151948_1.jpg" width="350"/>
+</p>
+
+
+Negative images
+--------------------
+We need to collect negative images that do not contain objects of interest, they must contain all kinds of objects, thus avoiding that the classifier does not have enough information about what is not our desired object, this dataset was 2056 images
+
+<p align="center">
+  <img src="https://grupoavante.org/media/catalog/product/cache/1/thumbnail/600x/17f82f742ffe127f42dca9de82fb58b1/t/o/toyo_open_country_at2_wo_11.jpg" width="250"/>
+</p>
+
 
 
 Background & Foreground Extraction
@@ -48,6 +69,7 @@ Projective transformation
 <p align="center">
   <img src="https://raw.githubusercontent.com/cstopics/cstopics/6937cd1177395c72b3ccd049293327d8097dc114/assets/notebooks/vision/fig_projective.png" width="250"/>
 </p>
+
 
 Code
 ==========
