@@ -84,7 +84,7 @@ Interface
 The interface is built in qt creator to then read the .ui file in a python program and assign to each widget the function with which it will be activated
 
 <p align="center">
-  <img src="https://pbs.twimg.com/media/DtLDV62WoAA6h5q.jpg" width="550"/>
+  <img src="Josean11/20182_cstopics_tool_road" width="550"/>
 </p>
 
 Results
